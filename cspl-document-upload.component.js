@@ -12,9 +12,9 @@
             controllerAs: 'vm'
         });
 
-        csplDocumentUploadController.$inject = ['$scope'];
+        csplDocumentUploadController.$inject = ['$scope', '$uibModal'];
 
-    function csplDocumentUploadController($scope) {
+    function csplDocumentUploadController($scope, $uibModal) {
 
         // Scope Variable's
         var vm = this;
@@ -24,7 +24,7 @@
         function onUpload() {
                     
             var modalOptions = {
-                templateUrl: 'app/components/cspl-document-upload/document-upload-dialog.html',
+                templateUrl: 'bower_components/Document-Upload/document-upload-dialog.html',
                 controller: 'DocumentUploadDialogController',
                 controllerAs: 'vm',
                 backdrop: 'static',
