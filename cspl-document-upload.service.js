@@ -1,7 +1,7 @@
 (function() {
 	'use strict';
 	angular
-	.module('nimbusApp')
+	.module('csplDocumentUploadModule')
 	.factory('DocumentUpload', DocumentUpload);
 
 	DocumentUpload.$inject = ['$resource'];
