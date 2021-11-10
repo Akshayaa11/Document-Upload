@@ -1,7 +1,7 @@
 (function () {
 	'use strict';
 
-	angular.module('nimbusApp')
+	angular.module('csplDocumentUploadModule')
 		.controller('DocumentUploadDialogController', DocumentUploadDialogController);
 
         DocumentUploadDialogController.$inject = ['$scope', 'DocumentUpload'];
