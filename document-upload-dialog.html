@@ -1,0 +1,30 @@
+<form name="uploadForm">
+    <div class="{{vm.theme}}">
+        <div class="modal-header">
+            <h4 class="modal-title">
+            <span>Document Upload</span>
+            </h4>
+        </div>
+    
+        <div class="modal-body">
+            <div class="content" ng-include="'app/components/cspl-document-upload/document-upload-dialog-template.html'" onload="vm.onload()"></div>
+              
+                
+                <div class="modal-footer">
+                   
+                    <button type="button" class="btn btn-info" data-dismiss="modal" ng-click="vm.cancel()" >
+                        <span>CANCEL</span>
+                    </button>
+                    <button type="submit" style="padding:5px;"
+                        class="btn btn-primary"
+                        ng-click="vm.processUpload();">
+                        <span>UPLOAD</span>
+                    </button>	
+                    	
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    </form>
+    

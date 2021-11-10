@@ -1,0 +1,20 @@
+<div class="row">
+    <label class="col-md-4 control-label" data-translate="nimbusApp.label.selectedFiles"></label>
+    <div class="col-md-4 ">
+        <div class="form-group has-feedback ">
+            <input type="text" class="form-control" 
+                ng-required="true" ng-model="vm.filesSelected" readOnly>
+            <div  ng-required="true"
+                class="cursor-pointer">
+                <span class="form-control-feedback upload-files">
+                    <label for="uploadPath" class="cursor-pointer">
+                        <img src="assets/images/BrowsePath_Active-Dark-20.png" style="pointer-events:none"
+                            class="browseImg_active" />
+                    </label>
+                </span>
+            </div>
+            <input type="file" id="uploadPath" name="uploadPath" 
+                ng-required="true" ng-hide="true" multiple="multiple" />
+        </div>
+    </div>
+</div>
