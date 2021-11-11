@@ -24,7 +24,7 @@
         function onUpload() {
                     
             var modalOptions = {
-                templateUrl: 'bower_components/Document-Upload/document-upload-dialog.html',
+                templateUrl: 'bower_components/cspl-document-upload/document-upload-dialog.html',
                 controller: 'DocumentUploadDialogController',
                 controllerAs: 'vm',
                 backdrop: 'static',
