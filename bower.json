@@ -1,5 +1,5 @@
 {
-  "name": "cspl-document-upload",
+  "name": "Document-Upload",
   "version": "1.0.3",
   "description": "WCG -- AngularJS Component Library",
   "main": "cspl-document-upload.module.js",
