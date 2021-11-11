@@ -6,7 +6,7 @@
   "authors": [
     "cspl"
   ],
-  "license": "",
+  "license": "ISC",
   "keywords": [
     "AngularJS",
     "Component",
