@@ -1,7 +1,7 @@
 (function() {
 	'use strict';
 	angular
-	.module('csplDocumentUploadModule')
+	.module('csplDocumentUpload')
 	.factory('DocumentUpload', DocumentUpload);
 
 	DocumentUpload.$inject = ['$resource'];
