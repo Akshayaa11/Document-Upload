@@ -1,3 +1,3 @@
 'use strict';
  
-angular.module('csplDocumentUploadModule', []);
+angular.module('csplDocumentUpload', []);
