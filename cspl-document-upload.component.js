@@ -2,8 +2,8 @@
     'use strict';
 
     angular
-        .module('csplDocumentUploadModule')
-        .component('csplDocumentUpload', {
+        .module('csplDocumentUpload')
+        .component('csplDocumentUploadComponent', {
             bindings: {
                 
             },
