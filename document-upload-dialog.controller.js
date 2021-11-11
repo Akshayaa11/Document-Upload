@@ -1,7 +1,7 @@
 (function () {
 	'use strict';
 
-	angular.module('csplDocumentUploadModule')
+	angular.module('csplDocumentUpload')
 		.controller('DocumentUploadDialogController', DocumentUploadDialogController);
 
         DocumentUploadDialogController.$inject = ['$scope', 'DocumentUpload'];
