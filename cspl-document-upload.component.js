@@ -7,7 +7,7 @@
             bindings: {
                 
             },
-            templateUrl: 'bower_components/Document-Upload/cspl-document-upload.html',
+            templateUrl: 'bower_components/cspl-document-upload/cspl-document-upload.html',
             controller: csplDocumentUploadController,
             controllerAs: 'vm'
         });
